@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header{
+    background: url(/pexels-mike-sember-6043246.jpg) no-repeat center center/cover;
+    height: 50vh;
+    width: 70%;
+    margin-left: 200px;
+}
+header h1{
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: gray;
+    height: 50px;
+    padding-top: 20px;
+}
+section{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ppp{
+    text-align: center;
+    margin-left: 150px;
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+}
+.ooo{
+    text-align: center;
+    margin-left: 150px;
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+} */
+@media (max-width:500px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+body{
+    background:cornflowerblue;
+}
+@media (max-width:500px){
+    header-1{
+        color: red;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+header-1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    text-align: center;
+    margin-top: 70px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (max-width:500px) {
+.card {
+    font-weight: 900;
+    color: red;
+    /* margin-right: -100px; */
+}
+}
+.card{
+    margin-left: -110px;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.box input:focus{
+/* border:1px solid red; */
+outline: none!important;
+}
+input{
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.boro input:focus{
+    border:1px solid red;
+outline: none!important;
+
+}
+.ota{
+    display: block;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+@media (max-width:500px){
+    .lays{
+        /* margin-right: 250px; */
+        font-size: 20px;
+        
+    }
+}
+.lays button{
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px solid  white;
+    text-align: center;
+    /* margin-right: -500px; */
+}
+@media (max-width:500px){
+textarea{
+    width: 35%;
+}    
+}
+textarea{
+    outline: none;
+    resize: none;
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid black;
+}
